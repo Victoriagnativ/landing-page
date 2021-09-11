@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+@font-face {
+  font-family: Reey-Regular;
+  src: url(font/Reey-Regular.woff);
+}
+h2 {
+  font-family: Reey-Regular;
+  font-size: 58px;
+}
+body {
+  margin: 0;
+  color: #fff;
+}
+.page__wrap {
+  background-image: url(images/header-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+}
+.header__container {
+  padding: 30px;
+}
+.header__mine-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #fff;
+}
+.main-nav__nav-list {
+  padding-right: 60px;
+}
+.main-nav__nav-item {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.button {
+  position: relative;
+  border-radius: 35px;
+  width: 170px;
+}
+.fa-search {
+  float: right;
+  font-size: 25px;
+}
+.name__container {
+  display: flex;
+  justify-content: space-between;
+}
+.name__images {
+  padding-top: 150px;
+}
+.name__images img {
+  margin-bottom: -130px;
+  margin-right: -150px;
+}
+.name__description {
+  padding-top: 90px;
+}
+.logo {
+  padding-bottom: 40px;
+}
+.name__description h1 {
+  padding-bottom: 40px;
+  font-family: Reey-Regular;
+  font-size: 50px;
+}
+.name__description h3 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+.button {
+  background-color: #eaeaea;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.name__description p {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  max-width: 350px;
+}
+.menu {
+  background: #fff;
+  padding-top: 70px;
+}
+.menu__container {
+  color: black;
+}
+
+.img-responsive {
+  width: 360px;
+  height: 364px;
+}
+
+.aditional-title {
+  max-width: 400px;
+}
+
+.content h4 {
+  padding-left: 30px;
+}
+.content-text {
+  padding-left: 30px;
+}
+.btn {
+  display: inline-block;
+  background-color: rgb(41, 40, 40);
+  padding: 12px 28px;
+  color: #fff;
+}
+.row__btn {
+  padding-bottom: 20px;
+}
+.info {
+  background: #212428;
+}
+.info__text {
+  display: flex;
+  justify-content: space-around;
+}
+.info__text-list {
+  max-width: 460px;
+}
+.btn-info {
+  background: #e8e9e9;
+  color: #6c6e6f;
+}
+.discount {
+  background: #fff;
+  color: #000;
+  padding-top: 70px;
+}
+.discount-title {
+  max-width: 320px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.discount-title-list {
+  max-width: 330px;
+  font-size: 18px;
+}
+.discount__img {
+  margin-left: -70px;
+}
+.discount-list {
+  padding-left: 100px;
+  padding-top: 140px;
+}
+.discount__img1 {
+  margin-left: -120px;
+}
+.discount-list1 {
+  padding-left: 50px;
+  padding-top: 140px;
+}
+
+.list-title {
+  max-width: 900px;
+  padding-left: 180px;
+  font-size: 20px;
+}
+.list-title-adition {
+  padding-top: 50px;
+  font-size: 50px;
+}
+.images-pizza {
+  margin-left: -220px;
+  margin-top: -460px;
+  margin-bottom: -160px;
+}
+.item {
+  background: #fff;
+  color: #000;
+}
+.item-title {
+  font-family: Reey-Regular;
+  font-size: 30px;
+}
+.item-text {
+  max-width: 800px;
+  text-align: center;
+  padding-left: 300px;
+  margin-top: 50px;
+}
+.title-here {
+  background: #212428;
+}
+.title-here-list {
+  padding-top: 150px;
+}
+.title-here-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+.title-here-item {
+  max-width: 500px;
+  display: inline-block;
+}
+.title-form {
+  position: relative;
+}
+.title-text {
+  border-radius: 25px;
+  padding: 12px 120px;
+  border-collapse: collapse;
+}
+.title-button {
+  border-radius: 25px;
+  border-collapse: collapse;
+  padding: 12px 30px;
+  background: #54514e;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: absolute;
+  right: 300px;
+}
+.title-images {
+  margin-left: -220px;
+  margin-top: -480px;
+  margin-bottom: -160px;
+}
+.icon {
+  background: #fff;
+  color: #000;
+}
+.icon-section {
+  display: flex;
+}
+.service {
+  display: flex;
+}
